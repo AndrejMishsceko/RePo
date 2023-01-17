@@ -72,7 +72,7 @@
 #Применение функции  permutations
 from itertools import *
 
-for i in permutations('abc'):
+for i in permutations('a''b''c''d'):
 
     print(i, end=' ') # abc acb bac bca cab cba
 print()
@@ -80,7 +80,7 @@ for i in permutations('abb'):
     print(i, end=' ') # abb abb bab bba bab bba 
 print() 
     
-for i in permutations('abcd', 2):
+for i in permutations('ab', 2):
     print(i, end=' ') # ab ac ba bc ca cb 
     
     
